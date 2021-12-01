@@ -1,0 +1,140 @@
+h2{
+	color: darkblue;
+	font-size: 40px;
+	font-family: Arial, serif;
+	text-align: center;
+	margin: 40px 20px;
+	border: solid darkblue 15px;
+	font-weight: bold;
+	background-color: lightblue;
+	padding : 25px;
+	font-family: Merriweather;
+}
+
+h1{
+	  font-size: 60px;
+    color: navy;
+    text-align: center;
+    line-height: 2;
+    margin: 40px;
+}
+
+body{
+	background-color: ghostwhite;
+	color: navy;
+}
+
+h4{
+	font-size: 30px;
+	text-align: center;
+	margin: 20px;
+	text-decoration: underline;
+}
+
+body{
+	font-family: Merriweather;
+}
+
+h4{
+	font-family: Merriweather;
+}
+
+.miseenpagetitre{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 2;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: Merriweather Bold 700;
+}
+
+.titrepara{
+	font-size: 17px;
+	font-weight : bold;
+}
+
+.espace_sup {
+	margin-top: 40px;
+}
+
+.taille_img {
+	width: 200px;
+	border-radius: 30%;
+}
+
+.center_img {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.container {
+	display: flex;
+    justify-content: space-around;
+	padding: 30px;
+}
+
+.para{
+	border: solid black;
+	border-radius: 15%;
+	line-height: 30px;
+	width: 450px;
+	margin: 40px 20px;
+	padding: 30px;
+	box-shadow: 60px -16px darkblue;
+}
+
+.miseenpagesoftskill{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.taille_icon {
+	font-size: 40px;
+	text-align: center;
+	margin: 10px;
+}
+
+.mail{
+	text-align: center;
+	font-size: 40px;
+}
+
+@media (max-device-width: 540px){
+	
+    .container{
+      display: block;
+      margin-left: 184px;
+      font-size: 28px;
+      padding: 7px;
+    } 
+
+    .miseenpagetitre{
+    	font-size: 30px;
+    }
+
+    .titrepara{
+    	font-size: 28px;
+    }
+
+    .taille_icon{
+    	font-size: 45px;
+    }
+
+    .taille_img{
+    	width: 300px;
+    	margin-bottom: 30px;
+    }
+
+    .para{
+    	margin-top: 7px;
+    }
+
+    h4{
+    	margin-top: 67px;
+    }
+
+}
+
+
+
